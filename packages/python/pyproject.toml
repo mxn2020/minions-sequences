@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "minions-sequences"
+version = "0.1.0"
+description = "Multi-step email drip campaigns, cadence rules, A/B variants, and open/reply tracking"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+keywords = ["sequences","ai","minions"]
+authors = [
+    { name = "Mehdi Nabhani", email = "mehdi@the-mehdi.com" }
+]
+dependencies = [
+    "minions-sdk>=0.2.1",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[project.urls]
+Homepage = "https://github.com/mxn2020/minions-sequences"
+Repository = "https://github.com/mxn2020/minions-sequences"
+
+[tool.hatch.build.targets.wheel]
+packages = ["minions_sequences"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]

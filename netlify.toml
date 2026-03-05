@@ -1,0 +1,6 @@
+[build]
+  command = "pnpm run build"
+  publish = "apps/blog/dist"
+
+[context.production]
+  environment = { NODE_VERSION = "20" }

@@ -1,0 +1,12 @@
+{
+  "extends": "astrostrict",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "strict": true
+  }
+}

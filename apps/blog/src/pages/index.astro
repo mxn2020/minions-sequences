@@ -1,0 +1,18 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Home" description="Minions Sequences Blog — Updates, tutorials, and announcements">
+  <h1 class="text-4xl font-bold mb-4">Minions Sequences Blog</h1>
+  <p class="text-gray-400 text-lg mb-8">Updates, tutorials, and announcements.</p>
+
+  <div class="space-y-8">
+    <article class="border border-gray-800 rounded-lg p-6 hover:border-purple-500 transition-colors">
+      <h2 class="text-xl font-semibold mb-2">
+        <a href="/posts/welcome" class="hover:text-purple-400">Welcome to Minions Sequences</a>
+      </h2>
+      <p class="text-gray-400">Introducing our new project in the Minions ecosystem.</p>
+      <time class="text-gray-500 text-sm mt-2 block">2026</time>
+    </article>
+  </div>
+</BaseLayout>

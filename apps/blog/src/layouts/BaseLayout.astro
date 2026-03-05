@@ -1,0 +1,39 @@
+---
+import '@/styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title} | Minions Sequences Blog</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body class="bg-gray-950 text-gray-100 min-h-screen font-sans">
+    <header class="border-b border-gray-800 px-6 py-4">
+      <nav class="max-w-4xl mx-auto flex items-center justify-between">
+        <a href="/" class="text-xl font-bold text-purple-400">Minions Sequences Blog</a>
+        <div class="flex gap-4 text-sm text-gray-400">
+          <a href="https://sequences.minions.help" class="hover:text-white">Docs</a>
+          <a href="https://sequences.minions.wtf" class="hover:text-white">App</a>
+          <a href="https://github.com/mxn2020/minions-sequences" class="hover:text-white">GitHub</a>
+        </div>
+      </nav>
+    </header>
+    <main class="max-w-4xl mx-auto px-6 py-12">
+      <slot />
+    </main>
+    <footer class="border-t border-gray-800 px-6 py-8 text-center text-gray-500 text-sm">
+      <p>&copy; {new Date().getFullYear()} Mehdi Nabhani. Built with Astro.</p>
+    </footer>
+  </body>
+</html>

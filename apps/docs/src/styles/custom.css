@@ -1,0 +1,14 @@
+/* Custom styles for Minions Sequences docs */
+:root {
+    --sl-color-accent-low: #1a1145;
+    --sl-color-accent: #8B5CF6;
+    --sl-color-accent-high: #c4b5fd;
+    --sl-color-white: #ffffff;
+    --sl-color-gray-1: #eceef2;
+    --sl-color-gray-2: #c0c2c7;
+    --sl-color-gray-3: #888b96;
+    --sl-color-gray-4: #555765;
+    --sl-color-gray-5: #353841;
+    --sl-color-gray-6: #24272f;
+    --sl-color-black: #17181c;
+}
