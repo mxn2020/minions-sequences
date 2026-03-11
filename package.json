@@ -18,7 +18,8 @@
     "test": "pnpm --filter @minions-sequences/sdk run test",
     "lint": "pnpm --filter @minions-sequences/sdk run build && pnpm --filter @minions-sequences/sdk run lint && pnpm --filter @minions-sequences/cli run lint",
     "deploy": "pnpm run deploy:blog",
-    "dev": "echo 'no dev'"
+    "dev": "echo 'no dev'",
+    "stop": "pkill -f 'node.*minions-sequences' || true"
   },
   "engines": {
     "node": ">=20"

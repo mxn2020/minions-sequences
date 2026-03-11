@@ -1,1 +1,8 @@
-name: @minions-sequences/blog\ndescription: Standard compliance definition for @minions-sequences/blog\npriority: high\ntags:\n  - foundation\n  - ecosystem\ndeploy_url: null\n
+name: "@minions-sequences/blog"
+project_scope: child
+child_type: blog
+parent_project: minions-sequences-workspace
+description: "Standard compliance definition for @minions-sequences/blog"
+priority: high
+deploy_url: null
+tags: null

@@ -1,1 +1,7 @@
-name: minions-sequences-workspace\ndescription: Multi-step email drip campaigns, cadence rules, A/B variants, and open/reply tracking\npriority: high\ntags:\n  - foundation\n  - ecosystem\ndeploy_url: null\n
+name: minions-sequences-workspace
+project_scope: main
+project_type: monorepo
+description: "Multi-step email drip campaigns, cadence rules, A/B variants, and open/reply tracking"
+priority: high
+deploy_url: null
+tags: [minion, toolbox, ai-agent, automation, minions, sequences]

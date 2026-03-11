@@ -19,3 +19,8 @@ PROMPTS.md
 # Local Netlify folder
 .netlify
 .claude
+
+# Added by AI Agent
+.env.*
+!.env.example
+.DS_Store
