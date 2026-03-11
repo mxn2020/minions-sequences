@@ -5,3 +5,4 @@ description: "Multi-step email drip campaigns, cadence rules, A/B variants, and 
 priority: high
 deploy_url: null
 tags: [minion, toolbox, ai-agent, automation, minions, sequences]
+category: minion-toolbox

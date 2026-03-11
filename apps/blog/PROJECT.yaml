@@ -6,3 +6,4 @@ description: "Standard compliance definition for @minions-sequences/blog"
 priority: high
 deploy_url: null
 tags: null
+category: minion-toolbox
