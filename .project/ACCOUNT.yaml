@@ -1,0 +1,4 @@
+services:
+  github:
+    owner: mxn2020
+    repo: minions-sequences

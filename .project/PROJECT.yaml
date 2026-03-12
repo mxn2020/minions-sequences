@@ -1,0 +1,16 @@
+name: minions-sequences-workspace
+project_scope: main
+project_type: monorepo
+description: Multi-step email drip campaigns, cadence rules, A/B variants, and open/reply tracking
+tier: prototype
+lane: minions-platform
+priority: medium
+oss: true
+stack: ["typescript"]
+repo: "https://github.com/mxn2020/minions-sequences"
+deploy_url: null
+last_active: 2026-03-11
+tags: ["minions-sequences-workspace", "minions", "toolbox"]
+notes: null
+id: null
+category: minion-toolbox
